@@ -1,0 +1,23 @@
+// 화면을 가운데 정렬 앱타이틀(일정관리를 보여주는 컴포넌트에 스타일 적용)
+.TodoTemplate {
+  width: 512px;
+  // width가 주어진 상태에서 좌우 중앙 정렬
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  border-radius: 4px;
+  overflow: hidden;
+
+  .app-title {
+    background: #22b8cf;
+    color: white;
+    height: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    background: white;
+  }
+}
